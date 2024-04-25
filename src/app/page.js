@@ -1,9 +1,12 @@
+import HomeBody from '@/components/HomeBody';
+import SearchBar from '@/components/SearchBar';
 import React, { Fragment } from 'react';
 
 const page = () => {
   return (
     <Fragment>
-      <h1>Hellow next js</h1>
+      <HomeBody></HomeBody>
+      <SearchBar></SearchBar>
     </Fragment>
   );
 };

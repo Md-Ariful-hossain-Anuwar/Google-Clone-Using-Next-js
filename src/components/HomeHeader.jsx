@@ -1,13 +1,11 @@
 import React, { Fragment } from 'react';
 import Link from "next/link"
-import Image from "next/image"
 import { IoGridSharp } from "react-icons/io5";
-import  Profile  from "../assets/images/profile.jpg";
 
 const HomeHeader = () => {
     return (
         <Fragment>
-            <header className='flex justify-end'>
+            <header className='flex justify-center sm:justify-end md:justify-end lg:justify-end xl:justify-end'>
                 <div className='flex items-center space-x-5 p-3'>
                     <Link className='hover:underline underline-offset-4' href={`https://mail.google.com/mail/`}>Gmail</Link>
                     <Link className='hover:underline underline-offset-4' href={`https://www.google.com/imghp?hl=en&tab=ri&authuser=0&ogbl`}>Images</Link>
